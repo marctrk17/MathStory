@@ -2,13 +2,11 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - ACalculator
+    - Drag
+    - Drag1
     - MoveCamera
     - btnNext
-    - btnNext1
-    - btnSub
     - btnSum
-    - gotomath
-    - gotostory
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.Graphs.dll:
@@ -65,23 +63,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11306}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11502}
+      Script: {instanceID: 11612}
     - Class: 114
       Script: {instanceID: 11738}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11798}
     - Class: 114
-      Script: {instanceID: 11800}
+      Script: {instanceID: 12072}
     - Class: 114
-      Script: {instanceID: 12074}
+      Script: {instanceID: 12530}
     - Class: 114
-      Script: {instanceID: 12180}
-    - Class: 114
-      Script: {instanceID: 12534}
-    - Class: 114
-      Script: {instanceID: 12952}
+      Script: {instanceID: 12948}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -147,12 +141,6 @@ ScriptsOnlyBuild:
     className: ActivationTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: btnSub
-  - hash:
-      serializedVersion: 2
       Hash: aeb62f729c52c814dec86c47dcac1471
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -213,6 +201,12 @@ ScriptsOnlyBuild:
     className: SignalAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Drag1
+  - hash:
+      serializedVersion: 2
       Hash: 0dbc3be398b4869a5c8d0d8481ee402c
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -223,12 +217,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: PhysicsRaycaster
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: gotomath
   - hash:
       serializedVersion: 2
       Hash: bd3cf68c8964d3c66d1c43f4f98508c9
@@ -261,6 +249,12 @@ ScriptsOnlyBuild:
     className: AnimationPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: c23c5d640b57710aaaa28f84e6d47948
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Drag
+  - hash:
+      serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -283,12 +277,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ControlPlayableAsset
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: gotostory
   - hash:
       serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
@@ -367,12 +355,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: RawImage
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: btnNext1
   - hash:
       serializedVersion: 2
       Hash: 5ad4aa237d47ac2bab17bacb672edf7a
